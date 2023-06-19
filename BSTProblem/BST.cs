@@ -31,6 +31,18 @@ namespace BSTProblem
             }
             return treeSize;
         }
+        public int Search(int data)
+        {
+            if (root == null)
+            {
+                Console.WriteLine("Binary Search Tree is Empty");
+                return 0;
+            }
+            else
+            {
+                return root.Search(data);
+            }
+        }
         public void Display()
         {
             if (root == null)
@@ -44,5 +56,3 @@ namespace BSTProblem
         }
     }
 }
-
-
