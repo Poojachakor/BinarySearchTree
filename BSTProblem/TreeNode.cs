@@ -43,7 +43,6 @@ namespace BSTProblem
                 }
             }
         }
-        //Displaying as leftNode -> rootNode -> rightNode
         public void InOrderTraversal()
         {
             if (leftNode != null)
@@ -58,4 +57,5 @@ namespace BSTProblem
         }
     }
 }
+
 
